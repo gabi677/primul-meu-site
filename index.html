@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin Pro - Interactiv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas pentru fundalul interactiv -->
+    <canvas id="liquid-canvas"></canvas>
+
+    <!-- Cardul Comercial -->
+    <div class="card">
+        <span class="badge">Produs Premium</span>
+        <h1 id="titlu-produs">Colecția Vizuală 2026</h1>
+        <p class="descriere">Explorează galeria noastră interactivă și fundalul dinamic.</p>
+        
+        <!-- Zona de afișare a imaginii -->
+        <div class="imagine-container">
+            <img id="imagine-dinamica" src="https://picsum.photos/id/10/400/250" alt="Imagine Galerie">
+        </div>
+
+        <!-- Bara de acțiuni cu mai multe butoane -->
+        <div class="grup-butoane">
+            <button id="btn-random" class="btn btn-primary">🎲 Imagine Random</button>
+            <button id="btn-theme" class="btn btn-secondary">🎨 Schimbă Tema</button>
+            <button id="btn-info" class="btn btn-outline">ℹ️ Info Produs</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
